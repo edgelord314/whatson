@@ -50,18 +50,15 @@ nav li {
   font-weight: 700;
   text-decoration: none;
   text-transform: uppercase;
-  border-width: 2px;
-  border-style: solid;
-  border-color: #17252A;
   padding: .35em 1em;
   color: #3AAFA9;
   font-size: 1em;
+  border-radius: .35em;
 }
 
 .button:hover,
 .button:focus {
-  color: #2B7A78;
-  background-color: #FEFFFF;
+  background-color: #17252A;
 }
 
 .title-h {
@@ -87,6 +84,7 @@ nav li {
   margin-bottom: 1em;
   background-color: #17252A;
   padding: .5em;
+  border-radius: .5em;
 }
 
 .news-headline {
