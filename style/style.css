@@ -5,6 +5,7 @@
  * 
  * black:        #17252A
  * dark-green:   #2B7A78
+ * darker-green: #152f2c
  * accent-green: #3AAFA9
  * light-grey:   #DEF2F1
  * white:        #FEFFFF
@@ -27,7 +28,7 @@ body {
   margin: 0;
   font-family: Raleway, sans-serif;
   text-align: center;
-  background-color: #DEF2F1;
+  background-color: #152f2c;
 }
 
 .news-link:visited {
