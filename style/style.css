@@ -74,6 +74,17 @@ nav li {
   text-align: left;
 }
 
+@media (max-width:65rem) {
+  .title-text {
+    font-size: .85em;
+  }
+}
+
+.news-list {
+  padding: 0;
+  list-style-type: none;
+}
+
 .news {
   display: block;
   color: #3AAFA9;
@@ -87,6 +98,18 @@ nav li {
   background-color: #17252A;
   padding: .5em;
   border-radius: .5em;
+}
+
+@media (max-width:85rem) {
+  .news {
+    max-width: 75%;
+  }
+}
+
+@media (max-width:65rem) {
+  .news {
+    max-width: 100%;
+  }
 }
 
 .news-date {
@@ -119,4 +142,27 @@ nav li {
   font-size: .9em;
   padding-left: 1em;
   padding-right: 1em;
+}
+
+@media (max-width:65rem) {
+  .news-headline {
+    font-size: 1.25em;
+  }
+  
+  .news-link {
+    display: inline-block;
+    padding-right: .75em;
+    padding-left: .75em;
+    padding-top: .15em;
+    padding-bottom: .15em;
+    font-size: .8em;
+    margin-top: .5em;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: .35em;
+  }
+  
+  .news-text {
+    margin-top: -.35em;
+  }
 }
