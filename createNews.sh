@@ -18,4 +18,10 @@ read filename
 echo text:
 read text
 
-printf "%s"  "News:$news\nCategories:$cats\nHeadline:$headline\nLink:$link\n$text" > news/${filename}.news
+cat <<EOT >> news/${filename}.news
+News:$news
+Categories:$cats
+Headline:$headline
+Link:$link
+$text
+EOT
