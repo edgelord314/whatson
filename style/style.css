@@ -168,8 +168,11 @@ nav li {
 }
 
 .news-separator {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
   border-top: .25em solid #DEF2F1;
-  border-radius: 5px;
+  border-radius: 10px;
+  max-width: 50%;
 }
 
 footer {
