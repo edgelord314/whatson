@@ -166,3 +166,39 @@ nav li {
     margin-top: -.35em;
   }
 }
+
+.news-separator {
+  border-top: .25em solid #DEF2F1;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: centre;
+  border-style: solid;
+  border-color: #3AAFA9;
+  border-radius: 1.5em;
+  padding-top: .5em;
+}
+
+.footer-text {
+  color: #FEFFFF;
+  padding: 0;
+  margin-bottom: -.5em;
+  margin-top: 0em;
+}
+
+.footer-list {
+  display: inline-block;
+  list-style: square;
+  list-style-type: square;
+  text-align: left;
+}
+
+.footer-li {
+  color: #FEFFFF;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #3AAFA9;
+}
