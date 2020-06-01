@@ -170,10 +170,11 @@ nav li {
 }
 
 .news-separator {
+  color: #FEFFFF;
   margin-top: 1.5em;
   margin-bottom: 1.5em;
   border-top: .25em solid #DEF2F1;
-  border-radius: 10px;
+  border-radius: 3px;
   max-width: 50%;
 }
 
